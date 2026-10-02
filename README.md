@@ -1,6 +1,3 @@
----
-
-
 
 This project demonstrates how to deploy a highly available **WordPress application with a MySQL database** on AWS using a **self-managed Kubernetes cluster (kubeadm)** running on EC2 instances.
 
@@ -40,10 +37,10 @@ Before starting, ensure you have:
 
 ### Infrastructure
 
-- ✅ 3 EC2 instances (Ubuntu recommended)
+-  3 EC2 instances (Ubuntu recommended)
   - Minimum: t2.medium
 
-- ✅ Security groups allowing:
+-  Security groups allowing:
   - SSH (22)
   - HTTP (80)
   - HTTPS (443)
